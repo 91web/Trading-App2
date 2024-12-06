@@ -13,7 +13,6 @@
     max-width: 100%; 
 }
 
-/* Navigation styles */
 .nav ul {
     display: flex;
     list-style: none; 
@@ -48,19 +47,18 @@
 
 }
 
-/* Image Styling */
 .event-hero1 img {
     max-width: 100%; 
     height: auto;
     border-radius: 10px; 
 }
 
-/* Description Styling */
+
 .herodescription {
     flex: 1; 
 }
 
-/* List Styling: Align list items in a column */
+
 .trading-info ul {
     list-style-type: none; 
     padding: 0;
@@ -128,7 +126,7 @@
 }
 
 .footer img {
-    max-width: 100%; /* Ensure image is responsive */
+    max-width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
@@ -146,24 +144,24 @@
 
 .silver-container {
     display: flex;
-    justify-content: center; /* Center items horizontally */
-    gap: 5px; /* Add spacing between circles */
+    justify-content: center; 
+    gap: 5px; 
     margin-top: 20px;
 
 }
 
 .silver {
-    width: 100px; /* Set width for the circle */
-    height: 100px; /* Set height for the circle (equal to width) */
-    background-color: silver; /* Set the circle background */
-    border-radius: 50%; /* Make it a circle */
-    display: flex; /* Use flex to center the text */
-    justify-content: center; /* Center text horizontally */
-    align-items: center; /* Center text vertically */
-    font-size: 16px; /* Adjust font size */
-    font-weight: bold; /* Make text bold */
-    color: #333; /* Set text color */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 100px;
+    height: 100px; 
+    background-color: silver; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 16px; 
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 .silver:hover{
     background-color: #4c4747;
