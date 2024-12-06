@@ -1,0 +1,170 @@
+
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+    max-width: 100%; 
+}
+
+/* Navigation styles */
+.nav ul {
+    display: flex;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin-left: 20px; 
+}
+
+.nav a {
+    text-decoration: none;
+    color: white; 
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #555;
+    border-radius: 5px; 
+}
+
+
+
+.event-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+
+}
+
+/* Image Styling */
+.event-hero1 img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+}
+
+/* Description Styling */
+.herodescription {
+    flex: 1; 
+}
+
+/* List Styling: Align list items in a column */
+.trading-info ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 10px 0;
+}
+
+.trading-info ul li {
+    margin: 5px 0; 
+    font-size: 16px; 
+}
+
+/* Button Styling */
+.register-btn {
+    background-color: #000000; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.register-btn:hover {
+    background-color: #474748; 
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .event-container {
+        flex-direction: column; 
+        text-align: center; 
+    }
+}
+
+.event-container{
+    border: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+
+.info-list {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-list .d1 {
+    font-size: 16px; 
+    line-height: 1;
+    color: #333; 
+}
+.herodescription{
+    justify-content: center;
+    width: 500px;
+}
+
+.footer {
+    text-align: center; 
+    padding: 20px; 
+}
+
+.footer img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+    .footer-text{
+    width: 300px;
+    justify-content: center;
+}
+
+}
+
+.silver-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    gap: 5px; /* Add spacing between circles */
+    margin-top: 20px;
+
+}
+
+.silver {
+    width: 100px; /* Set width for the circle */
+    height: 100px; /* Set height for the circle (equal to width) */
+    background-color: silver; /* Set the circle background */
+    border-radius: 50%; /* Make it a circle */
+    display: flex; /* Use flex to center the text */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    color: #333; /* Set text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.silver:hover{
+    background-color: #4c4747;
+}
